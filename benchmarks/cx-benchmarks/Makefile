@@ -2,7 +2,7 @@ all_tests: akerman digital-root factorial-iterative  factorial-recursive
 
 akerman:
 	@echo "Running akerman test:"
-	cx ./ackman-recurssive.cx
+	cx ./ackermann-recurssive.cx
 
 digital-root:
 	@echo

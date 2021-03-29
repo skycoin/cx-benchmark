@@ -2,7 +2,7 @@ all_tests: akerman digital-root factorial-iterative  factorial-recursive fibonac
 
 akerman:
 	@echo "Running akerman test"
-	python3 ./ackman-recurssive.py
+	python3 ./ackermann-recurssive.py
 
 digital-root:
 	@echo

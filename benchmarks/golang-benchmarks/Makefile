@@ -1,7 +1,7 @@
 all: ackermann_test digital-root_test factorial-iterative_test factorial-recursive_test
 
 ackermann_test:
-	cd ackman-recurssive && go test -bench=.
+	cd ackermann-recurssive && go test -bench=.
 digital-root_test:
 	cd digital-root && go test -bench=.
 factorial-iterative_test:
